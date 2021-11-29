@@ -207,6 +207,88 @@ input[type="text"]{
 #footer p{
     margin: 0;
 }
+
+.article-item{
+    width: 100%;
+    border-bottom: #eee 3px solid;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .img-wrap{
+     width: 130px;
+     height: 130px;
+     overflow: hidden;
+     float: left;
+     margin-right: 15px;
+     border: #ccc 1px solid;
+}
+.article-item .img-wrap img{
+    height: 100%;
+    text-align: center;
+}
+.article-item h2 {
+    display: block;
+    width: 100%;
+    margin:0;
+    padding:0;
+    margin-bottom: 7px;
+}
+.article-item .date{
+    display: block;
+    width: 100%;
+    color: rgb(149, 149, 149);
+}
+.article-item a{
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.article-item a:hover{
+    text-decoration: underline;
+}
+.article-detail .img-wrap{
+    float: none;
+    width: 100%;
+    height: 300px;
+}
+.article-detail .img-wrap img{
+    width   : 100%;
+}
+#article-title{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#form-title{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mid-form{
+    width: 50%;
+    margin: 0px auto;
+}
+.mid-form label{
+    display: block;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.mid-form .radiobuttons{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
 @keyframes rotate{
 
     100%{
